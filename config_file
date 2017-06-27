@@ -1,0 +1,43 @@
+#### All software is assummed to have their required dependencies! Paths should be edited in their repspective job files#####
+
+#path to project
+project_dir=/.
+
+#path to raw reads of genome 1 (1 is required) and additional information (Required for each)
+genome=
+read_length=
+insert_length=
+
+#assemblers (supported VELVET,SOAPdenovo,SPADES; more than 1 can be added; 1 is required)
+assembler=
+path_to_assembler=
+
+#trimming quality cutoff value 20 <= Q <= 30
+QVALUE_CUTOFF=30
+
+#path to BUSCO gene finder (recommended, but not required)
+BUSCO=
+
+#path to KMER genie (Required)
+kmerGenie=
+
+#path to trimGalore (Required)
+trimGalore=
+
+#path to Cutadapt (Required) (I used 1.7.1)
+CUTADAPT=
+
+#option to run fastqc after trimming raw reads (recommended, but not required)
+FASTQC=false
+
+#path to fastqc (Optional)
+FASTQC=
+
+#path to VELVET
+VELVET=
+
+#path to SOAPdenovo
+SOAP=
+
+#path to SPADES
+SPADES=

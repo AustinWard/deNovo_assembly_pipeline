@@ -1,0 +1,14 @@
+#!usr/bin/bash
+
+echo -n "Enter email > "
+read email
+
+whichq
+echo "----Available Nodes---"
+
+echo -n "Enter node(s) (comma seperated, no spaces) > "
+read nodes
+
+#sets up directories
+./setup.py $1
+
